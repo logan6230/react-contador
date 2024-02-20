@@ -1,8 +1,5 @@
-import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Perfil from "./componentes/Perfil";
-import Contador from "./componentes/Contador";
 
 function App() {
   const persons = [
@@ -14,6 +11,32 @@ function App() {
       empresa: "MoureDev",
       perfil:
         "Es un Youtuber español, es el fundador de la empresa de desarrollo de software MoureDev",
+      redes: {
+        linkedin: "https://www.linkedin.com/in/braismoure/",
+        youtube: "https://www.youtube.com/@mouredev",
+        twitter: "https://twitter.com/MoureDev",
+      },
+    },
+    {
+      nombre: "Mito Code",
+      pais: "Peru",
+      imagen: "mito",
+      cargo: "Ingeniero de Software",
+      empresa: "MitoCode",
+      perfil: "Es un Youtuber Peruano, fundador del canal MitoCode",
+      redes: {
+        linkedin: "https://www.linkedin.com/in/braismoure/",
+        youtube: "https://www.youtube.com/@mouredev",
+        twitter: "https://twitter.com/MoureDev",
+      },
+    },
+    {
+      nombre: "Midudev",
+      pais: "España",
+      imagen: "midudev",
+      cargo: "Ingeniero de Software",
+      empresa: "Midudev",
+      perfil: "Es un Youtuber Español, fundador del canal Midudev",
       redes: {
         linkedin: "https://www.linkedin.com/in/braismoure/",
         youtube: "https://www.youtube.com/@mouredev",
